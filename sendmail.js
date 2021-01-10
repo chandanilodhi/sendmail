@@ -55,8 +55,8 @@ return new Promise((resolve, reject)=>{
     var tranporter = nodemailer.createTransport({      //transporter object
         service: 'gmail',
         auth: {
-            user: 'chandanilodhi2014@gmail.com', // Your email id
-            pass: 'Chandani@123' // Your password
+            user: 'xyz@gmail.com', // Your email id
+            pass: '******' // Your password
         }
         })
         });
